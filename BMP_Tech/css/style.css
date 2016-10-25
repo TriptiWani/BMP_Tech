@@ -1,0 +1,44 @@
+.container{
+  margin:0 auto;
+  width:40%;
+  }
+.progressBars {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid black;
+  margin:5px;
+}
+
+#progress1,#progress2,#progress3{
+  position: absolute;
+  height: 100%;
+}
+#progress1{
+  width: 25%;
+}
+#progress2{
+  width: 50%;
+}
+#progress3{
+  width: 75%;
+}
+.label {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  color: #000;
+}
+div.select_progress,div.control_progress{
+  display: inline;
+}
+.maxExceeded{
+  background-color: red;
+  text-align: center;
+}
+.maxNotExceeded{
+  background-color: #aadbee;
+  text-align: center;
+}
